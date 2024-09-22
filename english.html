@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shinararutyun, Barekargum CJSC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shinararutyun, Barekargum CJSC</h1>
+        <p>Supervision of Residential, Public, and Industrial Building Construction</p>
+        <div class="language-selector">
+            <a href="index.html">Հայերեն</a>
+            <a href="english.html">English</a>
+            <a href="russian.html">Русский</a>
+        </div>
+    </header>
+    <section class="services">
+        <div class="service">
+            <img src="images/works.jpg" alt="Blacktop Laying" width="400px" height="250px">
+            <h2>What do we do?</h2>
+            <p>Our company is engaged in monitoring the quality of construction work,
+                ensuring that all projects meet technical standards and regulations. We track schedules and monitor the use of materials. Our goal is to ensure the safety, durability, and high quality of construction projects.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p style="font-weight: bold;">Address:</p>
+        <p>Yerevan, Davtashen 3rd District, Building 10-49</p>
+        <p style="font-weight: bold;">Phone: +374-93-73-19-61</p>
+        <p style="font-weight: bold;">Email: <a href="mailto:shinararutyunbarekargum@mail.ru">shinararutyunbarekargum@mail.ru</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Shinararutyun, Barekargum CJSC. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const headings = document.querySelectorAll('h1, h2');
+            headings.forEach(heading => {
+                heading.style.opacity = 0;
+                heading.style.transition = 'opacity 1s ease-in-out';
+                setTimeout(() => {
+                    heading.style.opacity = 1;
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>
